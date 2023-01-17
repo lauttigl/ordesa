@@ -1,10 +1,16 @@
+import { NavBar } from "./Components/NavBar/NavBar";
+import {Routes, Route, BrowserRouter} from 'react-router-dom'
+import { Home } from "./Pages/Home/Home";
 
 
 function App() {
   return (
-    <div className="">
-      <h1>TESTING ORDESA APP NETLIFY</h1>
-    </div>
+    <BrowserRouter>
+    <NavBar/>
+    <Routes>
+    <Route path="/" element={<Home/>}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
