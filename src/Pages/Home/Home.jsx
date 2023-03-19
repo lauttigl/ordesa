@@ -7,10 +7,11 @@ export const Home = () => {
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Ordesa</h1>
-      <p className="mb-5 tex-lg">Integramos tecnología, Gestión y Logística al servicio de su organización, acercando soluciones, detectando mejoras y resolviendo problemáticas, optimizando tiempo y costos. </p>
+      <h1 className="mb-5 text-5xl font-bold">ORDESA SRL</h1>
+      <p className="mb-5 tex-lg">Somos una empresa en crecimiento que integra tecnología, gestión y logística, al servicio de su organización y necesidades.
+      Mediante la detección de problemas, implementando soluciones y mejoras de calidad optimizando tiempo y costos</p>
       <Link to={`/services`}>
-      <button className='btn bg-black text-sm hover:bg-orange-500'>Querés saber más? Haz click aquí.</button>
+      <button className='btn bg-sky-800 text-sm hover:bg-sky-400'>Querés saber más? Haz click aquí.</button>
       </Link>
     </div>
   </div>
